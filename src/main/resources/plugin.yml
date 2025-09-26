@@ -1,0 +1,25 @@
+name: BetterTPA
+main: com.ma4z.bettertpa.BetterTPA
+version: 1.0.0
+api-version: 1.21
+author: ma4z
+commands:
+  tpa:
+    description: Request to teleport to another player
+    usage: /tpa <player>
+  tpahere:
+    description: Request a player to teleport to you
+    usage: /tpahere <player>
+  tpaccept:
+    description: Open the TPA accept menu
+    usage: /tpaccept
+  tpcancel:
+    description: Cancel your outgoing teleport request
+    usage: /tpcancel
+  better-tpa:
+    description: Admin commands for BetterTPA
+    usage: /better-tpa reload
+permissions:
+  bettertpa.reload:
+    description: Reload BetterTPA config
+    default: op

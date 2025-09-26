@@ -1,0 +1,14 @@
+# BetterTPA configuration
+request-timeout: 60 # seconds until a request expires
+countdown-seconds: 5 # seconds before teleport
+messages:
+  request-sent: "&aTeleport request sent to %target%"
+  request-received: "&e%player% has requested to teleport to you. Use /tpaccept to open the GUI."
+  no-pending: "&cYou have no pending teleport requests."
+  request-cancelled: "&6Your teleport request was cancelled."
+  player-not-online: "&cThat player is not online."
+  request-accepted: "&aTeleport request accepted!"
+  request-denied: "&cTeleport request denied."
+  countdown-start: "&aTeleporting in [%n%] seconds..."
+  teleport-complete: "&aTeleported successfully!"
+  teleport-cancelled: "&cTeleport cancelled."
